@@ -13,6 +13,7 @@ $ellipse: "m 421.6 342.4 c -119.337 0 -216 -35.1298 -216 -78.5 c 0 -43.3702 96.6
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 
   &-inner {
     height: 600px;
@@ -56,6 +57,7 @@ $ellipse: "m 421.6 342.4 c -119.337 0 -216 -35.1298 -216 -78.5 c 0 -43.3702 96.6
         background-color: #87cefa;
         offset-path: path($ellipse);
         animation: move 3s linear infinite;
+        z-index: -1;
       }
     }
 
